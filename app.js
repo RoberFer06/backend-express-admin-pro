@@ -20,7 +20,6 @@ app.get('/', (req, res, next)=> {
     })
 })
 
-
 // Escuchar peticiones
 app.listen(3000 , () => {
     console.log('express server puerto 3000 online')
